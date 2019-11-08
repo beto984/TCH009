@@ -20,7 +20,7 @@ void unite_dizaine_centaine(int nombre, int* unite, int* dizaine, int* centaine)
 
 
 int main(int argc, const char * argv[]) {
-    int nombre=589;
+    int nombre=590;
     int u,d,c;
     
     //Utilisation sans pointeurs
