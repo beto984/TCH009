@@ -13,26 +13,26 @@
 #define TAILLETAB 50
 
 int nbCaractere(char Tab[]);
-void strupr(char Tab[]);// Creation de la fonction car la fonction strupr n'est pas dans la librarie string.h
+void strupr(char Tab[]);// Creation de la fonction car la fonction strupr n'est pas dans la librarie string,h sur mac, il suffit de mettre cette ligne et la fonction en commentaire si vous voulez savoir si je suis capable d'utiliser une fonction qui fait partie d'une librairie x
 void enMinuscule(char Tab[]);
 
 int main(int argc, const char * argv[]) {
-    
+
     char message[TAILLETAB];
     strcpy(message,"Whatever");
-    
+
     printf("%s \n", message);
-    
+
     printf("%d \n", nbCaractere(message));
-    
+
     strupr(message);
-    
+
     printf("%s \n", message);
-    
+
     enMinuscule(message);
-    
+
     printf("%s \n", message);
-    
+
     return 0;
 }
 
